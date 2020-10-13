@@ -59,13 +59,6 @@ public class TestServlet extends HttpServlet {
 
     userController.saveUser(user);
 
-//    try (Connection connection = connectionPool.getConnection()) {
-//      SQLStatements sqlStatements = new SQLStatements(connection);
-//      sqlStatements.createUser(user);
-//
-//    } catch (SQLException e) {
-//      e.printStackTrace();
-//    }
     response.setStatus(200);
     response.getWriter().print("user created");
   }
