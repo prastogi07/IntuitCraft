@@ -22,7 +22,6 @@ import javax.servlet.http.HttpServletResponse;
 
 public class TestServlet extends HttpServlet {
 
-
   private UserController userController;
 
   private List<String> hellowWorldArr =
